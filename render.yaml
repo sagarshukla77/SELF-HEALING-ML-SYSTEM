@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: healml-demo
+    runtime: docker
+    healthCheckPath: /health
+    autoDeploy: true
